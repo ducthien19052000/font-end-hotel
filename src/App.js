@@ -29,13 +29,13 @@ function App() {
       <Content>
       <Row className='banner'>
           <Col md={12} style={{marginLeft:'25px'}}>
-              <Row style={{margin:'30px'}}>
+              <Row style={{margin:'20px 0 0 30px'}}>
                 <h1 style={{fontSize:'32px' , color:'#306d5e'}}>
                   KHÁCH SẠN GREEN HOTEL
                 </h1>
                 
               </Row>
-              <Row  style={{margin:'20px 0 20px 30px'}}>  
+              <Row  style={{margin:'10px 0 0 30px'}}>  
                 <Col xs={12} md={6} style={{}}>
                 <span style={{fontSize:'16px', color:'#306d5e'}}>
                   Giảng viên hướng dẫn
@@ -63,12 +63,12 @@ function App() {
               <Row  style={{marginLeft:'30px'}}>  
                 <Col xs={12} md={6} style={{}}>
                 <span style={{fontSize:'16px', color:'#306d5e',fontWeight:500}}>
-                  Nguyễn Ngọc Trọng
-                  Vũ Đức Hải
-                  Trần Thị Lan
-                  Lê Duy Thái
-                  Nguyễn Văn Thưởng
-                  Lê Hữu Thắng
+                  Nguyễn Ngọc Trọng <br/>
+                  Vũ Đức Hải<br/>
+                  Trần Thị Lan<br/>
+                  Lê Duy Thái<br/>
+                  Nguyễn Văn Thưởng<br/>
+                  Lê Hữu Thắng<br/>
                   Nguyễn Tâm Anh Đức
                 </span> 
                 </Col>
@@ -81,14 +81,14 @@ function App() {
           <Row style={{textAlign:'center',margin:'30px'}}>
             <div style={{textAlign:'center',width:'100%'}}>
             <h1 style={{fontSize:'40px',fontWeight:700,color:'#306d5e'}}>
-                Giới thiệu dự án
+               GIỚI THIỆU DỰ ÁN
               </h1>
             </div>
              
           </Row>
           <Row style={{marginBottom:'30px'}}>
               <Col xs={24} md={15} >
-                <Image  src='https://rawcdn.githack.com/ducthien19052000/image-lan-thuong/d383b50603d7026409eacb584d0e5fb4e18488cd/z2238106418571_c6d2c161a9796b55757f009896e119cf.jpg' />
+                <Image className='image-1'  src='https://rawcdn.githack.com/ducthien19052000/image-lan-thuong/d383b50603d7026409eacb584d0e5fb4e18488cd/z2238106418571_c6d2c161a9796b55757f009896e119cf.jpg' />
               </Col>
               <Col xs={24} md={9} style={{padding:'0 30px'}}>
                 <h1 style={{fontSize:'27px',fontWeight:700}}>
@@ -98,7 +98,7 @@ function App() {
                   Vị trí
                 </p>
                 <p style={{fontSize:'16px',fontWeight:500}} >
-                   73 Nguyễn Trãi P.Khương Trung Q.Thanh Xuân Hà Nội
+                   73 Nguyễn Trãi, P.Khương Trung, Q.Thanh Xuân, Hà Nội
                 </p>
                 <p style={{fontSize:'20px',fontWeight:600,marginBottom:0}} >
                   Tổng mặt bằng 

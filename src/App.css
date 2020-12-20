@@ -35,3 +35,9 @@
   background-position: top;
   background-image: url('https://rawcdn.githack.com/ducthien19052000/image-lan-thuong/07fcb7a8205200f4cc64804e933d037e666f1a3d/z2237141484533_b9ae5ae6ef969a4d1b39cba5b02f8468.jpg');
 }
+.image-1{
+  height: 100% !important;
+}
+.ant-image{
+  height: 100% !important;
+}
