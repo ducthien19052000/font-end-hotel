@@ -1,0 +1,37 @@
+.header-main{
+  /* position: fixed;
+  z-index: 1;
+  width: 100%;
+  vertical-align: center; */
+  background:#ff7730 ;
+ 
+}
+.logo-main{
+  width: 9%;
+  float: left;
+}
+.menu-main{
+  width: 100%;
+  float: left;
+  background:  white!important;
+ font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  color: #8daecc!important;
+  border: none !important;
+}
+.search-main{
+  width: 75%;
+  margin-top: 20px;
+  
+}
+.ant-dropdown-link{
+  color: #fff;
+}
+.banner{
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-image: url('https://rawcdn.githack.com/ducthien19052000/image-lan-thuong/07fcb7a8205200f4cc64804e933d037e666f1a3d/z2237141484533_b9ae5ae6ef969a4d1b39cba5b02f8468.jpg');
+}
